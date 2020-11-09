@@ -4,7 +4,7 @@
 ## then I changed reference from "mean" to "solve"
 
 makeCacheMatrix <- function(x = matrix(sample(1:100,9),3,3)) {
-  s <- NULLa
+  s <- NULL
   set <- function(y) {
     x <<- y
     s <<- NULL
