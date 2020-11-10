@@ -47,7 +47,7 @@ cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
   inv <- x$getinv()
   if(!is.null(inv)) {
-    message("getting cached result")
+    message("Cached Result")
     return(inv)
   }
   data <- x$get()
@@ -79,7 +79,7 @@ cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
   inv <- x$getInverse()
   if (!is.null(inv)) {
-    message("getting cached data")
+    message("Cached Data")
     return(inv)
   }
   mat <- x$get()
